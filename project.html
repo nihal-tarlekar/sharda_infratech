@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sharda Infratech</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/capabilities.css">
+    <link rel="stylesheet" href="assets/custom.css">
+    <link rel="stylesheet" href="assets/project.css">
+    <link rel="stylesheet" href="assets/responsive/responsive.css">
+    <link rel="icon" href="images/favicon.png" alt="favicon">
+</head>
+
+<body>
+    <!--navigation-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="images/homepage/logo.png" alt="logo"
+                    class="img-logo"></a>
+            <div class="collapse navbar-collapse d-none d-sm-block d-md-none d-lg-block" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">PROJECTS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="our-legacy.html">OUR LEGACY</a>
+                            <a class="dropdown-item" href="our-philosophy.html">OUR PHILOSOPHY</a>
+                            <a class="dropdown-item" href="our-team.html">OUR TEAM</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="capabilities.html">CAPABILITIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="side-navigation">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li class=" dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="our-legacy.html">OUR LEGACY</a>
+                            <a class="dropdown-item" href="our-philosophy.html">OUR PHILOSOPHY</a>
+                            <a class="dropdown-item" href="our-team.html">OUR TEAM</a>
+                        </div>
+                    </li>
+                    <li><a href="capabilities.html">CAPABILITIES</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </div>
+
+                <span onclick="openNav()"><img src="images/homepage/menu.png" alt="menu-icon"
+                        class="img-menu-icon"></span>
+            </div>
+        </nav>
+    </div>
+    <!--projects-->
+    <div class="our-projects">
+        <img src="images/homepage/project-sd.png" alt="image" class="prj-bg img-fluid d-none d-sm-block">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-12 d-none d-sm-block">
+                <div class="projects-title">
+                    <h4>Sharda</h4>
+                    <h2>Projects</h2>
+
+                    <img src="images/homepage/bottom-line.png" alt="bottom-line" class="projects-bottom-line">
+                </div>
+            </div>
+            <div
+                class="col-lg-4 col-md-4 col-sm-4 col-12 offset-lg-2 offset-md-2 offset-sm-2 offset-0 d-none d-sm-block">
+                <div class="project-para">
+                    <p>Our broad project spectrum makes us one of the leading brands in civil and electrical
+                        infrastructure development.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 d-block d-sm-none">
+
+                <div class="project-para">
+                    <p>Our broad project spectrum makes us one of the leading brands in civil and electrical
+                        infrastructure development.</p>
+
+                </div>
+                <img src="images/about-us/mobile-team-bg.png" alt="mobile-bg"
+                    class="img-fluid d-block d-sm-none  mobside-img">
+
+
+            </div>
+            <div class="col-12 offset-0 d-block d-sm-none">
+                <div class="projects-title">
+                    <h4>Sharda</h4>
+                    <h2>Projects</h2>
+                    <img src="images/homepage/bottom-line.png" alt="bottom-line" class="projects-bottom-line">
+                </div>
+            </div>
+        </div>
+        <img src="images/capabilities/side-bg.png" alt="background-image" class="img-fluid side-img">
+        <img src="images/about-us/mobile-about-bg.png" alt="mobile-bg" class="img-fluid d-block d-sm-none mobprj-bg">
+    </div>
+    <!--projects-details-->
+    <div class="projects-names">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                    aria-selected="true">All Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">Completed Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                    aria-controls="contact" aria-selected="false">Ongoing Projects</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="all-projects">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="ahamadnagar-sump.html">
+                                <img src="images/projects-detail/ahmednagar-sump/2.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Ahmednagar Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="ambad-fire-station.html">
+                                <img src="images/projects-detail/ambad-fire-station/2.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Ambad Fire Station</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="baramati-pipeline.html">
+                                <img src="images/projects-detail/baramati-pipeline/baramati-2.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Baramati Pipeline</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="butibori-100-hect.html">
+                                <img src="images/projects-detail/butibori-100hect/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Butibori 100 Hect. Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="butibori-sz-layout.html">
+                                <img src="images/projects-detail/butibori-sz-layout/2.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Butibori SZ Layout Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="chakan-sump.html">
+                                <img src="images/projects-detail/chakan-sump/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Chakan Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="dehere-sump.html">
+                                <img src="images/projects-detail/dehre-sump/3.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Dehere Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="jnpt-dry-port.html">
+                                <img src="images/projects-detail/jnpt-dry-port/2.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>JNPT Dry Port</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="kharadi-hs.html">
+                                <img src="images/projects-detail/kharadi-hsg-scheme/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Kharadi Housing Scheme</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="kurkumb-road.html">
+                                <img src="images/projects-detail/kurkumbh-road/project-1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Kurkumbh Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="latur-comp-wall.html">
+                                <img src="images/projects-detail/latur-comp-wall/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Latur Compound Wall</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="lote-parshuram.html">
+                                <img src="images/projects-detail/lote-parshuram-sump/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Lote Parshuram Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="msedcl-dist-works.html">
+                                <img src="images/projects-detail/msedcl-dist-works/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>MSEDCL Distribution Works</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="msetcl-transmission-works.html">
+                                <img src="images/projects-detail/msetcl-transmission-works/1 (2).jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>MSETCL Transmission Works</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="nanded-sump.html">
+                                <img src="images/projects-detail/nanded-sump/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Nanded Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="nandurbar-wss.html">
+                                <img src="images/projects-detail/nandurbar-wss/3.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Nandurbar Water Supply Scheme</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="shendra-5starroad.html">
+                                <img src="images/projects-detail/shendra-5starroad/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Shendra Five Star Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="shrirampur-road.html">
+                                <img src="images/projects-detail/shrirampur-road/3.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Shrirampur Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="waluj-divider.html">
+                                <img src="images/projects-detail/waluj-divider/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Waluj Central Verge</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="waluj-footpath.html">
+                                <img src="images/projects-detail/waluj-footpath/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Waluj Footpath</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="waluj-gutter.html">
+                                <img src="images/projects-detail/waluj-gutter/4.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Waluj Drain</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="waluj-sump.html">
+                                <img src="images/projects-detail/waluj-sump/3.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Waluj Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="all-projects">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="ahamadnagar-sump.html">
+                                <img src="images/projects-detail/ahmednagar-sump/2.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Ahmednagar Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="ambad-fire-station.html">
+                                <img src="images/projects-detail/ambad-fire-station/2.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Ambad Fire Station</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="baramati-pipeline.html">
+                                <img src="images/projects-detail/baramati-pipeline/baramati-2.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Baramati Pipeline</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="butibori-sz-layout.html">
+                                <img src="images/projects-detail/butibori-sz-layout/2.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Butibori SZ Layout Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="dehere-sump.html">
+                                <img src="images/projects-detail/dehre-sump/3.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Dehere Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="kurkumb-road.html">
+                                <img src="images/projects-detail/kurkumbh-road/project-1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Kurkumbh Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="lote-parshuram.html">
+                                <img src="images/projects-detail/lote-parshuram-sump/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Lote Parshuram Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="msedcl-dist-works.html">
+                                <img src="images/projects-detail/msedcl-dist-works/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>MSEDCL Distribution Works</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="msetcl-transmission-works.html">
+                                <img src="images/projects-detail/msetcl-transmission-works/1 (2).jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>MSETCL Transmission Works</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="nanded-sump.html">
+                                <img src="images/projects-detail/nanded-sump/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Nanded Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="shendra-5starroad.html">
+                                <img src="images/projects-detail/shendra-5starroad/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Shendra Five Star Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="shrirampur-road.html">
+                                <img src="images/projects-detail/shrirampur-road/3.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Shrirampur Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="waluj-divider.html">
+                                <img src="images/projects-detail/waluj-divider/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Waluj Divider</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="waluj-footpath.html">
+                                <img src="images/projects-detail/waluj-footpath/1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Waluj Central Verge</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="waluj-gutter.html">
+                                <img src="images/projects-detail/waluj-gutter/4.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Waluj Drain</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="waluj-sump.html">
+                                <img src="images/projects-detail/waluj-sump/3.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Waluj Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="all-projects">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="butibori-100-hect.html">
+                                <img src="images/projects-detail/butibori-100hect/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Butibori 100 Hect. Road</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="chakan-sump.html">
+                                <img src="images/projects-detail/chakan-sump/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Chakan Sump</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="jnpt-dry-port.html">
+                                <img src="images/projects-detail/jnpt-dry-port/2.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>JNPT Dry Port</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mrgn-top">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="kharadi-hs.html">
+                                <img src="images/projects-detail/kharadi-hsg-scheme/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Kharadi Housing Scheme</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="latur-comp-wall.html">
+                                <img src="images/projects-detail/latur-comp-wall/1.1.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Latur Compound Wall</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 prj">
+                            <a href="nandurbar-wss.html">
+                                <img src="images/projects-detail/nandurbar-wss/3.jpg" alt="img-project"
+                                    class="img-fluid img-project-detail">
+                                <p>Nandurbar Water Supply Scheme</p>
+                                <img src="images/homepage/plus.png" alt="plus" class="overlay-plus">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <div class="footer d-none d-sm-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-md-2 col-12">
+                    <a href="index.html"><img src="images/homepage/footer-logo.png" alt="footer-logo"
+                            class="img-footer-logo"></a>
+                </div>
+                <div class="col-lg-7 col-md-7 col-md-7 col-12">
+                    <div class="footer-link">
+                        <ul class="footer-nav">
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="our-legacy.html">ABOUT US</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="project.html">PROJECTS</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="capabilities.html">CAPABILITIES</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="gallery.html">GALLERY</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="contact.php">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social-icon">
+                        <p>Follow Us</p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/infratech.sharda/" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=" https://www.instagram.com/sharda_infratech/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <!-- <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-md-3 col-12 no-pad">
+                    <div class="get-in-touch">
+                        <h3>Get in touch</h3>
+                        <img src="images/homepage/footer-bottom-line.png" alt="bottom-line" class="footer-line">
+                        <p>B-204, 2nd Floor, ALTIUS, Space Olympia Complex, Sutgirni Chowk, Garkheda, Aurangabad
+                            <br>(MH) - 431 005</p>
+                        <p>Telefax No: <a href="tel:+91-240-2983055">+91-240-2983055</a></p>
+                        <p>Email: <a href="mailto:hoabd@shardainfratech.com 
+                            " target="_blank">hoabd@shardainfratech.com</a>
+                            <a href="mailto:administration@shardainfratech.com 
+                            " target="_blank">administration@shardainfratech.com</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <p>&copy; 2020 Sharda Infratech. <span class="vertical-line">&vert;</span> DESIGN BY:&nbsp;<a
+                        href="https://www.optimist.co.in/" target="_blank">OPTIMIST BRAND DESIGN LLP.</a> </p>
+            </div>
+        </div>
+    </div>
+    <!--mobile-footer-->
+    <div class="footer d-block d-sm-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-md-6 col-6">
+                    <a href="index.html"><img src="images/homepage/footer-logo.png" alt="footer-logo"
+                            class="img-footer-logo"></a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-md-3 col-6">
+                    <div class="social-icon">
+                        <ul>
+                            <li><a href="https://www.facebook.com/infratech.sharda/" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=" https://www.instagram.com/sharda_infratech/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <!-- <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                      <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li> -->
+                        </ul>
+                    </div>
+                    <div class="get-in-touch">
+                        <p>B-204, 2nd Floor, ALTIUS, Space Olympia Complex, Sutgirni Chowk, Garkheda, Aurangabad
+                            <br>(MH) - 431 005</p>
+                        <p>Telefax No: <a href="tel:+91-240-2983055">+91-240-2983055</a></p>
+                        <p>Email: <a href="mailto:hoabd@shardainfratech.com 
+                            " target="_blank">hoabd@shardainfratech.com</a>
+                            <a href="mailto:administration@shardainfratech.com 
+                            " target="_blank">administration@shardainfratech.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="sub-footer">
+                <p>&copy; 2020 Sharda Infratech. </p>
+                <p>DESIGNED BY:&nbsp;<a href="https://www.optimist.co.in/" target="_blank">OPTIMIST BRAND DESIGN
+                        LLP.</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <!-- <script>
+        function openNav() {
+        document.getElementById("mySidenav-1").style.width = "100%";
+        }
+
+        function closeNav() {
+        document.getElementById("mySidenav-1").style.width = "0";
+        }
+    </script> -->
+
+    <script src="assets/bootstrap/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/all.js"></script>
+</body>
+
+</html>

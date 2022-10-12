@@ -1,0 +1,1070 @@
+.our-projects{
+    position: relative;
+    padding-top: 0%;
+    margin-bottom: 0%;
+}
+.projects-title{
+    padding-top: 20%;
+}
+.project-para{
+    font-family: 'rubiklight';
+    font-size: 16px;
+    padding-top: 15%;
+
+}
+.padd-tp{
+    padding-top: 5%;
+}
+.prj-bg {
+    position: absolute;
+    left: 70%;
+    width: 35%;
+    top: 0%;
+    z-index: -1;
+}
+.prj-dtls-bg{
+    position: absolute;
+    left: 70%;
+    width: 35%;
+    top: 0%;
+    z-index: -1;
+}
+.projects-names{
+    position: relative;
+    margin-top: 12%;
+}
+.nav-tabs{
+    padding-left: 15%;
+    padding-bottom: 5%;
+    border: 0px;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 2rem;
+}
+.nav-item .nav-link {
+    font-family: 'rubikmedium';
+    font-size: 20px;
+    color: #000;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #169dad;
+    background-color: #fff;
+    border-color: transparent;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+    color: #169dad;
+}
+.all-projects{
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.img-project-detail{
+    position: relative;
+   box-shadow: 0px 0px 10px 0px #e5e5e5; 
+}
+.prj:hover .overlay-plus{
+    opacity: 1;
+    transition: ease-in 0.2s;
+}
+.sldr:hover .overlay-plus{
+    opacity: 1;
+    transition: ease-in 0.2s;
+}
+.overlay-plus{
+    position: absolute;
+    width: 10%;
+    top: 30%;
+    left: 42%;
+    opacity: 0;
+}
+.side-img {
+    position: absolute;
+    width: 18%;
+    left: 0%;
+    top: 110%;
+}
+.mrgn-top{
+    margin-top: 3%;
+}
+.prj p{
+    font-family: 'rubikregular';
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    padding-top: 5%;
+}
+.prj a:hover{
+    text-decoration: none;
+}
+.details-title h6{
+    font-family: 'rubikmedium';
+    font-size: 16px;
+}
+.details-title h2{
+    font-family: 'baloo_bhaina_2regular';
+    font-size: 42px;
+    padding-right: 12%;
+    padding-top: 2%;
+}
+.details-title p{
+    font-family: 'rubiklight';
+    font-size: 18px;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+.project-details{
+    position: relative;
+    padding-left: 12%;
+    padding-top: 10%;
+}
+.details{
+    position: relative;
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.side-details p{
+    font-family: 'rubiklight';
+    font-size: 16px;
+    color: #959595;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.side-details-1 p{
+    font-family: 'rubiklight';
+    font-size: 16px;
+    color: #959595;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.side-details-1 li{
+    font-family: 'rubikmedium';
+    font-size: 14px;
+    color: #000;
+    padding-top: 5%;
+}
+.side-details-1 ul{
+    padding-left: 5%;
+}
+.padd-top{
+    padding-top: 15%;
+}
+.side-details h6{
+    font-family: 'rubikmedium';
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    padding-top: 2%;
+}
+
+.side-details-1 h6{
+    font-family: 'rubikmedium';
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0px;
+    padding-top: 2%;
+}
+.project-slider{
+    margin-top: -3%;
+    margin-left: 5%;
+}
+.proj-details-slider .carousel-control-next, .proj-details-slider .carousel-control-prev{
+    top: 90%;
+}
+.proj-details-slider .carousel-control-prev {
+    left: 90%;
+      width: 5%;
+      background-color: #f4f4f4;
+      height: 10%;
+      opacity: 1;
+}
+.proj-details-slider .carousel-control-prev-icon{
+    background-color: #000;
+}
+.proj-details-slider .carousel-control-next{
+    left: 95%;
+    width: 5%;
+    background-color: #000;
+    height: 10%;
+    opacity: 1;
+}
+.arrows{
+    width: 25%;
+}
+.details-para p{
+    font-family: 'rubiklight';
+    text-align: justify;
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 10%;
+}
+.other-projects{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #f4f4f4;
+}
+.other-projects h6{
+    font-family: 'rubikmedium';
+    font-size: 16px;
+    padding-bottom: 1%;
+}
+.other-projects-slider .carousel-control-prev, .other-projects-slider .carousel-control-next{
+    top: 58%;
+}
+.other-projects-slider .carousel-control-prev {
+    left: -6%;
+    width: 5%;
+    background-color: #000;
+    height: 15%;
+    opacity: 1;
+}
+.other-projects-slider .carousel-control-next {
+    left: 92.4%;
+    width: 5%;
+    background-color: #000;
+    height: 15%;
+    opacity: 1;
+}
+.other-projects-slider p{
+    font-family: 'baloo_bhaina_2semibold';
+    font-size: 18px;
+    padding-top: 2%;
+    padding-left: 10%;
+    color: #000;
+}
+.sldr a:hover{
+    text-decoration: none;
+}
+.details{
+    position: relative;
+}
+.details-bg-image{
+    position: absolute;
+    width: 45%;
+    right: 0%;
+    top: 0%;
+}
+.details-bg-image-1{
+    position: absolute;
+    width: 18%;
+    left: 0%;
+    top: 3%;
+}
+@media screen and (max-width: 2560px){
+    .details-title h6 {
+        font-size: 38px;
+    }
+    .details-title h2 {
+        font-size: 96px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 40px;
+        padding-right: 20%;
+        padding-top: 5%;
+    }
+    .project-details {
+        padding-left: 12%;
+        padding-top: 8%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 32px;  
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 32px;
+        padding-top: 2%;
+    }
+    .proj-details-slider{
+        margin-top: 2%;
+    }
+    .details-para p {
+        font-size: 38px;
+        line-height: 66px;
+        padding-right: 10%;
+    }
+    .other-projects-slider .carousel-control-prev, .other-projects-slider .carousel-control-next {
+        top: 65%;
+    }
+    .other-projects h6 {
+        font-size: 30px;
+    }
+    .other-projects-slider p {
+        font-size: 34px;
+        padding-top: 2%;
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width: 1920px){
+    .details-title h6 {
+        font-size: 32px;
+    }
+    .details-title h2 {
+        font-size: 82px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .project-details {
+        padding-left: 12%;
+        padding-top: 10%;
+    }
+    .details-title p {
+        font-size: 32px;
+        padding-right: 20%;
+        padding-top: 5%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 26px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 28px;
+        padding-top: 2%;
+    }
+    .details-para p {
+        font-size: 30px;
+        line-height: 50px;
+        padding-right: 10%;
+    }
+    .other-projects h6 {
+        font-size: 26px;
+    }
+    .other-projects-slider p {
+        font-size: 32px;
+        padding-top: 2%;
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width: 1600px){
+    .details-title h6 {
+        font-size: 26px;
+    }
+    .details-title h2 {
+        font-size: 68px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 26px;
+        padding-right: 20%;
+        padding-top: 5%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 24px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 24px;
+        padding-top: 2%;
+    }
+    .details-para p {
+        font-size: 26px;
+        line-height: 42px;
+        padding-right: 10%;
+    }
+    .other-projects h6 {
+        font-size: 24px;
+    }
+    .other-projects-slider p {
+        font-size: 30px;
+        padding-top: 2%;
+        padding-left: 10%;
+    }
+    .other-projects-slider .carousel-control-prev, .other-projects-slider .carousel-control-next {
+        top: 60%;
+    }
+}
+@media screen and (max-width: 1440px){
+    .details-title h6 {
+        font-size: 24px;
+    }
+    .details-title h2 {
+        font-size: 62px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 24px;
+        padding-right: 20%;
+        padding-top: 4%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 22px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 22px;
+        padding-top: 2%;
+    }
+    .details-para p {
+        font-size: 24px;
+        line-height: 40px;
+        padding-right: 10%;
+    }
+    .other-projects h6 {
+        font-size: 22px;
+    }
+    .other-projects-slider p {
+        font-size: 28px;
+        padding-top: 2%;
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width: 1366px){
+    .details-title h6 {
+        font-size: 22px;
+    }
+    .details-title h2 {
+        font-size: 56px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 22px;
+        padding-right: 20%;
+        padding-top: 4%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 20px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 20px;
+        padding-top: 2%;
+    }
+    .details-para p {
+        font-size: 22px;
+        line-height: 38px;
+        padding-right: 10%;
+    }
+    .other-projects h6 {
+        font-size: 20px;
+    }
+    .other-projects-slider p {
+        font-size: 24px;
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+    .other-projects-slider .carousel-control-prev, .other-projects-slider .carousel-control-next {
+        top: 56%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .details-title h6 {
+        font-size: 20px;
+    }
+    .details-title h2 {
+        font-size: 54px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 21px;
+        padding-right: 20%;
+        padding-top: 4%;
+    }
+    .details {
+        padding-right: 5%;
+    }
+}
+@media screen and (max-width: 1240px){
+    .details-title h6 {
+        font-size: 18px;
+    }
+    .details-title h2 {
+        font-size: 50px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 20px;
+        padding-right: 20%;
+        padding-top: 4%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 18px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 16px;
+        padding-top: 2%;
+    }
+    .details-para p {
+        font-size: 20px;
+        line-height: 34px;
+        padding-right: 10%;
+    }
+    .other-projects h6 {
+        font-size: 18px;
+    }
+    .other-projects h6 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .details-title h6 {
+        font-size: 16px;
+    }
+    .details-title h2 {
+        font-size: 42px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 18px;
+        padding-right: 20%;
+        padding-top: 5%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 16px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 14px;
+        padding-top: 2%;
+    }
+    .details-para p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-right: 10%;
+    }
+    .other-projects h6 {
+        font-size: 16px;
+    }
+    .other-projects-slider p {
+        font-size: 18px;
+        padding-top: 3%;
+        padding-left: 10%;
+    }.other-projects-slider p {
+        font-size: 18px;
+        padding-top: 3%;
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width: 800px){
+    .details-title h6 {
+        font-size: 14px;
+    }
+    .details-title h2 {
+        font-size: 34px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 16px;
+        padding-right: 20%;
+        padding-top: 5%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 15px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 13px;
+        padding-top: 2%;
+    }
+    .details-para p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-right: 10%;
+    }
+    .other-projects h6 {
+        font-size: 14px;
+    }
+    .other-projects-slider p {
+        font-size: 16px;
+        padding-top: 3%;
+        padding-left: 10%;
+    }
+    .other-projects-slider .carousel-control-prev, .other-projects-slider .carousel-control-next {
+        top: 55%;
+    }
+}
+@media screen and (max-width: 768px){
+    .details-title h6 {
+        font-size: 13px;
+    }
+    .details-title h2 {
+        font-size: 32px;
+        padding-right: 12%;
+        padding-top: 2%;
+    }
+    .details-title p {
+        font-size: 14px;
+        padding-right: 20%;
+        padding-top: 5%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 14px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 12px;
+        padding-top: 2%;
+    }
+    .details-para p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 10%;
+    }
+    .other-projects h6 {
+        font-size: 13px;
+    }
+    .other-projects-slider p {
+        font-size: 15px;
+        padding-top: 3%;
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width: 480px){
+    .details-title h6 {
+        font-size: 18px;
+    }
+    .prj-dtls-bg-1 {
+        position: absolute;
+        right: 0% !important;
+        width: 20%;
+        top: 0%;
+        z-index: -1;
+    }
+    .details-title h2 {
+        font-size: 36px;
+        padding-right: 12%;
+        padding-top: 5%;
+    }
+    .details-title p {
+        font-size: 18px;
+        padding-right: 20%;
+        padding-top: 0%;
+    }
+    .side-details{
+        padding-top: 5%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 18px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 18px;
+        padding-top: 2%;
+    }
+    .padd-top {
+        padding-top: 10%;
+    }
+    .proj-details-slider {
+        margin-top: 10%;
+        padding-left: 12%;
+        padding-right: 10%;
+    }
+    .details-bg-image-1{
+        display: none;
+    }
+    .proj-details-slider .carousel-control-next, .proj-details-slider .carousel-control-prev {
+        top: 85%;
+    }
+    .proj-details-slider .carousel-control-prev {
+        left: 80%;
+        width: 10%;
+        background-color: #f4f4f4;
+        height: 15%;
+        opacity: 1;
+    }
+    .proj-details-slider .carousel-control-next {
+        left: 90%;
+        width: 10%;
+        background-color: #000;
+        height: 15%;
+        opacity: 1;
+    }
+    .details-para p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+    .side-details-1 {
+        padding-top: 25%;
+        padding-right: 5%;
+        padding-left: 17%;
+    }
+    .btn-primary{
+        font-family:  'rubikregular';
+        font-size: 18px;
+        color: #000;
+        padding-top: 14px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 20px;
+        border-radius: 0px;
+        border: 1px solid #1394aa;
+        background-color: transparent;
+    }
+    .btn-primary:hover{
+        background-color: #1394aa;
+        border-color: #1394aa;
+        color: #fff;
+    }
+    .more-projects{
+        margin-top: 10%;
+        margin-left: 17%;
+    }
+    .details {
+        padding-right: 1%;
+        padding-bottom: 15%;
+        padding-left: 12%;
+    }
+    
+    .details-para h3{
+        font-family: 'baloo_bhaina_2regular';
+        font-size: 40px;
+    }
+    .prj-details-btm-lne {
+        width: 29%;
+        margin-top: -10%;
+    }
+    .prj-dtls-bg{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 0%;
+    }
+    .details-para{
+        padding-top: 18%;
+    }
+    .prj-dtls-bg-2{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 45%;
+        z-index: -1;
+    }
+    .butibori-100-sd{
+        top:46% !important;
+    }
+    .butibori-sz-bg{
+        top: 40% !important;
+    }
+    .chakan-bg{
+        top: 41% !important;
+    }
+    .dehre-bg{
+        top: 45% !important;
+    }
+    .kharadi-bg{
+        top: 48% !important;
+    }
+    .kharadi-bg {
+        top: 54% !important;
+    }
+    .latur-bg{
+        top: 45% !important;
+    }
+    .lote-bg{
+        top: 35% !important;
+    }
+
+}
+@media screen and (max-width: 414px){
+    .project-details {
+        padding-left: 12%;
+        padding-top: 12%;
+    }
+    .details-title h6 {
+        font-size: 16px;
+    }
+    .details-title h2 {
+        font-size: 34px;
+        padding-right: 12%;
+        padding-top: 5%;
+    }
+    .details-title p {
+        font-size: 16px;
+        padding-right: 20%;
+        padding-top: 0%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 16px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 16px;
+        padding-top: 2%;
+    }
+    .details-para h3 {
+        font-size: 38px;
+    }
+    .prj-details-btm-lne {
+        width: 32%;
+        margin-top: -12%;
+    }
+    .details-para p {
+        font-size: 17px;
+        line-height: 28px;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+    .btn-primary {
+        font-size: 17px;
+        padding-top: 14px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .prj-dtls-bg-2 {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 50%;
+        z-index: -1;
+    }
+    .details-para {
+        padding-top: 20%;
+    }
+    .btn-primary {
+        font-size: 16px;
+        padding-top: 14px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .butibori-100-sd {
+        top: 51% !important;
+    }
+    .butibori-sz-bg {
+        top: 45% !important;
+    }
+    .chakan-bg {
+        top: 46% !important;
+    }
+    .dehre-bg {
+        top: 50% !important;
+    }
+
+    .latur-bg {
+        top: 50% !important;
+    }
+    .lote-bg {
+        top: 38% !important;
+    }
+}
+@media screen and (max-width: 412px){
+    .details-title h6 {
+        font-size: 14px;
+    }
+    .details-title h2 {
+        font-size: 32px;
+        padding-right: 12%;
+        padding-top: 5%;
+    }
+    .details-title p {
+        font-size: 15px;
+        padding-right: 20%;
+        padding-top: 0%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 15px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 15px;
+        padding-top: 2%;
+    }
+    .details-para h3 {
+        font-size: 36px;
+    }
+    .prj-details-btm-lne {
+        width: 30%;
+        margin-top: -12%;
+    }
+    .prj-dtls-bg-2 { 
+        top: 50%;
+    }
+    .butibori-100-sd {
+        top: 52% !important;
+    }
+    .butibori-sz-bg {
+        top: 47% !important;
+    }
+    .dehre-bg {
+        top: 51% !important;
+    }
+    .latur-bg {
+        top: 51% !important;
+    }
+    .lote-bg {
+        top: 39% !important;
+    }
+}
+@media screen and (max-width: 393px){
+    .prj-dtls-bg-2 {
+        top: 50%;
+    }
+    .prj-details-btm-lne {
+        width: 31%;
+        margin-top: -12%;
+    }
+    .butibori-sz-bg {
+        top: 48% !important;
+    }
+    .chakan-bg {
+        top: 48% !important;
+    }   
+}
+@media screen and (max-width: 384px){
+    .details-title h6 {
+        font-size: 13px;
+    }
+    .details-title h2 {
+        font-size: 30px;
+        padding-right: 12%;
+        padding-top: 5%;
+    }
+    .details-title p {
+        font-size: 14px;
+        padding-right: 20%;
+        padding-top: 0%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 14px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 14px;
+        padding-top: 2%;
+    }
+    .details-para h3 {
+        font-size: 34px;
+    }
+    .prj-details-btm-lne {
+        width: 30%;
+        margin-top: -14%;
+    }
+    .details-para p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+    .prj-dtls-bg-2 {
+        top: 50%;
+    }
+    .btn-primary {
+        font-size: 15px;
+        padding-top: 14px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    
+    .butibori-sz-bg {
+        top: 46% !important;
+    }
+    .chakan-bg {
+        top: 47% !important;
+    }
+    .dehre-bg {
+        top: 50% !important;
+    }
+}
+@media screen and (max-width: 375px){
+    .prj-dtls-bg-2 {
+        top: 50%;
+    }
+    .prj-details-btm-lne {
+        width: 32%;
+        margin-top: -14%;
+    }
+    .butibori-sz-bg {
+        top: 48% !important;
+    }
+}
+@media screen and (max-width: 360px){
+    .details-title h2 {
+        font-size: 28px;
+        padding-right: 12%;
+        padding-top: 5%;
+    }
+    .details-title p {
+        font-size: 13px;
+        padding-right: 20%;
+        padding-top: 0%;
+    }
+    .side-details p, .side-details-1 p, .side-details-1 li {
+        font-size: 13px;
+    }
+    .side-details h6, .side-details-1 h6 {
+        font-size: 13px;
+        padding-top: 2%;
+    }
+    .details-para h3 {
+        font-size: 32px;
+    }
+    .details-para p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+    .prj-dtls-bg-2 {
+        top: 50%;
+    }
+    .btn-primary {
+        font-size: 13px;
+        padding-top: 14px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .prj-details-btm-lne {
+        width: 31%;
+        margin-top: -14%;
+    }
+    .butibori-sz-bg {
+        top: 47% !important;
+    }
+    .latur-bg {
+        top: 52% !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .details-title h6 {
+        font-size: 12px;
+    }
+    .details-title h2 {
+        font-size: 26px;
+        padding-right: 12%;
+        padding-top: 5%;
+    }
+    .details-para h3 {
+        font-size: 30px;
+    }
+    .btn-primary {
+        font-size: 13px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 15px;
+    }
+    .prj-details-btm-lne {
+        width: 33%;
+        margin-top: -14%;
+    }
+    .details-para p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+    .prj-dtls-bg-2 {
+        top: 51%;
+    }
+    .butibori-100-sd {
+        top: 54% !important;
+    }
+    .butibori-sz-bg {
+        top: 49% !important;
+    }
+    .dehre-bg {
+        top: 52% !important;
+    }
+    .kharadi-bg {
+        top: 56% !important;
+    }
+    .latur-bg{
+        top: 52% !important;
+    }
+}

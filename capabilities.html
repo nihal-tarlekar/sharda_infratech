@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sharda Infratech</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/capabilities.css">
+    <link rel="stylesheet" href="assets/custom.css">
+    <link rel="stylesheet" href="assets/responsive/responsive.css">
+    <link rel="icon" href="images/favicon.png" alt="favicon">
+</head>
+
+<body>
+    <!--navigation-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="images/homepage/logo.png" alt="logo"
+                    class="img-logo"></a>
+            <div class="collapse navbar-collapse d-none d-sm-block d-md-none d-lg-block" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">PROJECTS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="our-legacy.html">OUR LEGACY</a>
+                            <a class="dropdown-item" href="our-philosophy.html">OUR PHILOSOPHY</a>
+                            <a class="dropdown-item" href="our-team.html">OUR TEAM</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="capabilities.html">CAPABILITIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="side-navigation">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li class=" dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="our-legacy.html">OUR LEGACY</a>
+                            <a class="dropdown-item" href="our-philosophy.html">OUR PHILOSOPHY</a>
+                            <a class="dropdown-item" href="our-team.html">OUR TEAM</a>
+                        </div>
+                    </li>
+                    <li><a href="capabilities.html">CAPABILITIES</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                </div>
+
+                <span onclick="openNav()"><img src="images/homepage/menu.png" alt="menu-icon"
+                        class="img-menu-icon"></span>
+            </div>
+        </nav>
+    </div>
+
+    <!--capabilities-->
+    <div class="capabilities mb-10">
+        <img src="images/homepage/capabilities-bg.png" alt="bg-image" class="mob-bg-image d-block d-sm-none">
+        <div class="container-fluid">
+            <!--<div class="about-us-title">
+                   <div class="about-para">
+                       <h6>We provide end-to-end civil, electrical, and real estate development  services.</h6>
+                   </div>
+                   <div class="about-title">
+                       <h2>Capabilities</h2>
+                       <img src="images/homepage/bottom-line.png" alt="bottom-line" class="capabilities-bottom-line">
+                   </div>
+               </div>-->
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-md-5 col-12 offset-lg-2 offset-md-1 offset-sm-2 offset-0 ">
+                    <p class="lft-capabilities-para">
+                        We provide end-to-end Civil,<br> Electrical, and Real Estate<br> development services
+                    </p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-md-3 col-12 offset-lg-2 offset-md-2 offset-sm-2 offset-0">
+                    <p class="capabilities-heading-right">
+                        Capabilities
+                    </p>
+                    <image src="images/capabilities/line.png" alt="img" class="img-fluid capabilities-heading-hr">
+                </div>
+            </div>
+            <div class="row no-dis">
+                <div
+                    class="col-lg-3 col-md-3 col-md-3 col-12 offset-lg-2 offset-md-2 offset-sm-2 offset-0 capabilities-div capability-1 road-works">
+                    <image src="images/capabilities/road-works.png" alt="img" class="img-fluid capabilities-img">
+                        <image src="images/capabilities/road-works-overlay.png" alt="img" class="img-fluid overlay-img">
+                            <h2 class="capabilities-title">ROADWORKS<br></h2>
+                            <p>We have the engineering expertise and requisite machinery set up to execute the
+                                construction of roads, meeting all quality and aesthetic requirements.</p>
+                            <a href="road-works.html" class="capabilities-knowmore">Know more &nbsp; &nbsp; <span
+                                    class="rght-arrow">&rarr;</span></a>
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-md-3 col-12 capabilities-div capability-1 building-works">
+                    <image src="images/capabilities/building-works.png" alt="img" class="img-fluid capabilities-img">
+                        <image src="images/capabilities/building-works-overlay.png" alt="img"
+                            class="img-fluid overlay-img">
+                            <h2 class="capabilities-title">BUILDING WORKS</h2>
+                            <p>Our team of professionals and consultants is well equipped with experience to build
+                                diverse and need-specific infrastructure.</p>
+                            <a href="building-works.html" class="capabilities-knowmore">Know more &nbsp; &nbsp; <span
+                                    class="rght-arrow">&rarr;</span></a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-md-3 col-12 capabilities-div water-supply">
+                    <image src="images/capabilities/water-supply.png" alt="img" class="img-fluid capabilities-img">
+                        <image src="images/capabilities/water-supply-overlay.png" alt="img"
+                            class="img-fluid overlay-img"></image>
+                        <h2 class="capabilities-title">WATER SUPPLY <br>SCHEMES</h2>
+                        <p>We build safe & efficient water supply solutions of various capacities to meet customer's
+                            demand and needs. </p>
+                        <a href="water-supply-solution.html" class="capabilities-knowmore">Know more &nbsp; &nbsp; <span
+                                class="rght-arrow">&rarr;</span></a>
+                </div>
+            </div>
+            <div class="row no-dis">
+                <div class="col-lg-3 col-md-3 col-md-3 col-12  capabilities-div-second railway-track">
+                    <image src="images/capabilities/railway-track.png" alt="img" class="img-fluid capabilities-img">
+                        <image src="images/capabilities/railway-track-overlay.png" alt="img"
+                            class="img-fluid overlay-img"></image>
+                        <h2 class="capabilities-title">RAILWAY TRACK <br>LAYING AND LINKING</h2>
+                        <p>We have the latest technological expertise along with a capable and experienced engineering
+                            team to build superior and robust rail tracks.</p>
+                        <a href="railway-track-laying-linking.html" class="capabilities-knowmore">Know more &nbsp;
+                            &nbsp; <span class="rght-arrow">&rarr;</span></a>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-md-3 col-12 capabilities-div electricity">
+                    <image src="images/capabilities/electricity.png" alt="img" class="img-fluid capabilities-img">
+                        <image src="images/capabilities/electricity-overlay.png" alt="img"
+                            class="img-fluid overlay-img"></image>
+                        <h2 class="capabilities-title">ELECTRICITY <br>DISTRIBUTION &<br> TRANSMISSION</h2>
+                        <p>We offer end-to-end services in design, erection, testing, and commissioning of all types of
+                            electricity distribution and transmission works.
+                        </p>
+                        <a href="electricity-distribution-transmition.html" class="capabilities-knowmore">Know more
+                            &nbsp; &nbsp; <span class="rght-arrow">&rarr;</span></a>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-md-3 col-12 capabilities-div capability-2 real-estate">
+                    <image src="images/capabilities/real-estate.png" alt="img" class="img-fluid capabilities-img">
+                        <image src="images/capabilities/real-estate-overlay.png" alt="img"
+                            class="img-fluid overlay-img">
+                            <h2 class="capabilities-title">REAL ESTATE<br>DEVELOPMENT</h2>
+                            <p>We develop state-of-the-art real estate projects by deeply & minutely understanding the
+                                market pulse and specific customer needs.</p>
+                            <a href="real-estate-development.html" class="capabilities-knowmore">Know more &nbsp; &nbsp;
+                                <span class="rght-arrow">&rarr;</span></a>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-md-3 col-12 capabilities-div capability-2 pavement">
+                    <image src="images/capabilities/pavement.png" alt="img" class="img-fluid capabilities-img">
+                        <image src="images/capabilities/pavement-overlay.png" alt="img" class="img-fluid overlay-img">
+                        </image>
+                        <h2 class="capabilities-title">PAVEMENT AND<br> DRAINS</h2>
+                        <p>We specialize in Industrial area development by improving its Utility, Sanitation and
+                            Aesthetic appearance through construction of Pavement & Drains</p>
+                        <a href="pavement-rcc-drains.html" class="capabilities-knowmore">Know more &nbsp; &nbsp; <span
+                                class="rght-arrow">&rarr;</span> </a>
+                </div>
+            </div>
+
+
+
+            <!--Mobile view-->
+            <div class="mob-dis">
+                <div class="row ">
+                    <div class=" col-6 capabilities-div road-works">
+                        <image src="images/capabilities/road-works.png" alt="img" class="img-fluid capabilities-img">
+                            <image src="images/capabilities/road-works-overlay.png" alt="img"
+                                class="img-fluid overlay-img">
+                                <h2 class="capabilities-title">ROAD WORKS<br></h2>
+                                <p>We have the engineering expertise and requisite machinery set up to execute the
+                                    construction of roads, meeting all quality and aesthetic requirements.</p>
+                                <a href="road-works.html" class="capabilities-knowmore">Know more &nbsp; &nbsp; <span
+                                        class="rght-arrow">&rarr;</span></a>
+
+                    </div>
+
+                    <div class=" col-6 capabilities-div building-works">
+                        <image src="images/capabilities/building-works.png" alt="img"
+                            class="img-fluid capabilities-img">
+                            <image src="images/capabilities/building-works-overlay.png" alt="img"
+                                class="img-fluid overlay-img">
+                                <h2 class="capabilities-title">BUILDING WORKS</h2>
+                                <p>Our team of professionals and consultants is well equipped with experience to build
+                                    diverse and need-specific infrastructure.</p>
+                                <a href="building-works.html" class="capabilities-knowmore">Know more &nbsp; &nbsp;
+                                    <span class="rght-arrow">&rarr;</span></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-6 capabilities-div water-supply">
+                        <image src="images/capabilities/water-supply.png" alt="img" class="img-fluid capabilities-img">
+                            <image src="images/capabilities/water-supply-overlay.png" alt="img"
+                                class="img-fluid overlay-img"></image>
+                            <h2 class="capabilities-title">WATER SUPPLY <br>SCHEMES</h2>
+                            <p>We build safe & efficient water supply solutions of various capacities to meet customer's
+                                demand and needs. </p>
+                            <a href="water-supply-solution.html" class="capabilities-knowmore">Know more &nbsp; &nbsp;
+                                <span class="rght-arrow">&rarr;</span></a>
+                    </div>
+
+                    <div class=" col-6  capabilities-div railway-track">
+                        <image src="images/capabilities/railway-track.png" alt="img" class="img-fluid capabilities-img">
+                            <image src="images/capabilities/railway-track-overlay.png" alt="img"
+                                class="img-fluid overlay-img"></image>
+                            <h2 class="capabilities-title">RAILWAY TRACK <br>LAYING AND LINKING</h2>
+                            <p>We have the latest technological expertise along with a capable and experienced
+                                engineering team to build superior and robust rail tracks.</p>
+                            <a href="railway-track-laying-linking.html" class="capabilities-knowmore">Know more &nbsp;
+                                &nbsp; <span class="rght-arrow">&rarr;</span></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-6 capabilities-div electricity">
+                        <image src="images/capabilities/electricity.png" alt="img" class="img-fluid capabilities-img">
+                            <image src="images/capabilities/electricity-overlay.png" alt="img"
+                                class="img-fluid overlay-img"></image>
+                            <h2 class="capabilities-title">ELECTRICITY <br>DISTRIBUTION &<br> TRANSMISSION</h2>
+                            <p>We offer end-to-end services in design, erection, testing, and commissioning of all types
+                                of electricity distribution and transmission works. </p>
+                            <a href="electricity-distribution-transmition.html" class="capabilities-knowmore">Know more
+                                &nbsp; &nbsp; <span class="rght-arrow">&rarr;</span></a>
+                    </div>
+
+                    <div class=" col-6 capabilities-div  real-estate">
+                        <image src="images/capabilities/real-estate.png" alt="img" class="img-fluid capabilities-img">
+                            <image src="images/capabilities/real-estate-overlay.png" alt="img"
+                                class="img-fluid overlay-img">
+                                <h2 class="capabilities-title">REAL ESTATE<br>DEVELOPMENT</h2>
+                                <p>We develop state-of-the-art real estate projects by deeply & minutely understanding
+                                    the market pulse and specific customer needs.</p>
+                                <a href="real-estate-development.html" class="capabilities-knowmore">Know more &nbsp;
+                                    &nbsp; <span class="rght-arrow">&rarr;</span></a>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-12 capabilities-div capabilities-div-last pavement">
+                        <div class="row">
+                            <div class="col-3">
+                                <image src="images/capabilities/pavement.png" alt="img"
+                                    class="img-fluid capabilities-img mob-capabilities">
+                                    <image src="images/capabilities/pavement-overlay.png" alt="img"
+                                        class="img-fluid overlay-img overlay-mob-capabilities"></image>
+                            </div>
+                            <div class="col-9">
+                                <h2 class="capabilities-title">PAVEMENT AND DRAINS</h2>
+                            </div>
+                        </div>
+                        <p>We specialize in Industrial area development by improving its Utility, Sanitation and
+                            Aesthetic appearance through construction of Pavement & Drains.</p>
+                        <a href="pavement-rcc-drains.html" class="capabilities-knowmore">Know more &nbsp; &nbsp; <span
+                                class="rght-arrow">&rarr;</span> </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--projects-->
+    <div class="our-projects">
+        <img src="images/homepage/project-bg.png" alt="image" class="projects-bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <div class="projects-title">
+                        <h4>Sharda</h4>
+                        <h2>Projects</h2>
+                        <img src="images/homepage/bottom-line.png" alt="bottom-line" class="projects-bottom-line">
+                        <p>Our broad project spectrum makes us one of the leading brands in civil and electrical
+                            infrastructure development.</p>
+                    </div>
+                    <div class="projects-btn">
+                        <a href="project.html"><button type="button" class="btn btn-project">SEE PROJECTS &nbsp; &nbsp;
+                                &nbsp; <span class="rght-arrow">&rarr;</span></button></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-12">
+                    <div class="project-slider">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 desk-img" src="images/homepage/1.png" alt="First slide">
+                                    <img class="d-block w-100 mob-img " src="images/homepage/mob-1.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 desk-img" src="images/homepage/2.png" alt="Second slide">
+                                    <img class="d-block w-100 mob-img " src="images/homepage/mob-2.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 desk-img" src="images/homepage/3.png" alt="Third slide">
+                                    <img class="d-block w-100 mob-img " src="images/homepage/mob-3.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 desk-img" src="images/homepage/4.png" alt="Third slide">
+                                    <img class="d-block w-100 mob-img " src="images/homepage/mob-4.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 desk-img" src="images/homepage/5.png" alt="Third slide">
+                                    <img class="d-block w-100 mob-img " src="images/homepage/mob-5.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 desk-img" src="images/homepage/6.png" alt="Third slide">
+                                    <img class="d-block w-100 mob-img " src="images/homepage/mob-6.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 desk-img" src="images/homepage/7.png" alt="Third slide">
+                                    <img class="d-block w-100 mob-img " src="images/homepage/mob-7.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 desk-img" src="images/homepage/8.png" alt="Third slide">
+                                    <img class="d-block w-100 mob-img " src="images/homepage/mob-8.png"
+                                        alt="First slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                data-slide="prev">
+                                <img src="images/homepage/left-arrow.png" alt="arrow" class="arrows">
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                data-slide="next">
+                                <img src="images/homepage/right-arrow.png" alt="arrow" class="arrows">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer d-none d-sm-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-md-2 col-12">
+                    <a href="index.html"><img src="images/homepage/footer-logo.png" alt="footer-logo"
+                            class="img-footer-logo"></a>
+                </div>
+                <div class="col-lg-7 col-md-7 col-md-7 col-12">
+                    <div class="footer-link">
+                        <ul class="footer-nav">
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="our-legacy.html">ABOUT US</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="project.html">PROJECTS</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="capabilities.html">CAPABILITIES</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="gallery.html">GALLERY</a>
+                            </li>
+                            <li class="footer-nav-item">
+                                <a class="footer-nav-link" href="contact.php">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social-icon">
+                        <p>Follow Us</p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/infratech.sharda/" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=" https://www.instagram.com/sharda_infratech/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <!-- <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-md-3 col-12 no-pad">
+                    <div class="get-in-touch">
+                        <h3>Get in touch</h3>
+                        <img src="images/homepage/footer-bottom-line.png" alt="bottom-line" class="footer-line">
+                        <p>B-204, 2nd Floor, ALTIUS, Space Olympia Complex, Sutgirni Chowk, Garkheda, Aurangabad
+                            <br>(MH) - 431 005</p>
+                        <p>Telefax No: <a href="tel:+91-240-2983055">+91-240-2983055</a></p>
+                        <p>Email: <a href="mailto:hoabd@shardainfratech.com 
+                            " target="_blank">hoabd@shardainfratech.com</a>
+                            <a href="mailto:administration@shardainfratech.com 
+                            " target="_blank">administration@shardainfratech.com</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <p>&copy; 2020 Sharda Infratech. <span class="vertical-line">&vert;</span> DESIGN BY:&nbsp;<a
+                        href="https://www.optimist.co.in/" target="_blank">OPTIMIST BRAND DESIGN LLP.</a> </p>
+            </div>
+        </div>
+    </div>
+    <!--mobile-footer-->
+    <div class="footer d-block d-sm-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-md-6 col-6">
+                    <a href="index.html"><img src="images/homepage/footer-logo.png" alt="footer-logo"
+                            class="img-footer-logo"></a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-md-3 col-6">
+                    <div class="social-icon">
+                        <ul>
+                            <li><a href="https://www.facebook.com/infratech.sharda/" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a></li>
+                            <li><a href=" https://www.instagram.com/sharda_infratech/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <!-- <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                      <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li> -->
+                        </ul>
+                    </div>
+                    <div class="get-in-touch">
+                        <p>B-204, 2nd Floor, ALTIUS, Space Olympia Complex, Sutgirni Chowk, Garkheda, Aurangabad
+                            <br>(MH) - 431 005</p>
+                        <p>Telefax No: <a href="tel:+91-240-2983055">+91-240-2983055</a></p>
+                        <p>Email: <a href="mailto:hoabd@shardainfratech.com 
+                            " target="_blank">hoabd@shardainfratech.com</a>
+                            <a href="mailto:administration@shardainfratech.com 
+                            " target="_blank">administration@shardainfratech.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="sub-footer">
+                <p>&copy; 2020 Sharda Infratech. </p>
+                <p>DESIGNED BY:&nbsp;<a href="https://www.optimist.co.in/" target="_blank">OPTIMIST BRAND DESIGN
+                        LLP.</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <!-- <script>
+        function openNav() {
+        document.getElementById("mySidenav-1").style.width = "100%";
+        }
+
+        function closeNav() {
+        document.getElementById("mySidenav-1").style.width = "0";
+        }
+    </script> -->
+
+    <script src="assets/bootstrap/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/all.js"></script>
+</body>
+
+</html>

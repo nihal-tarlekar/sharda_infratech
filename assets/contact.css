@@ -1,0 +1,626 @@
+.contact-para {
+    font-family: 'rubiklight';
+    font-size: 18px;
+    padding-top: 20%;
+    padding-left: 14%;
+}
+.contact-side-img {
+    position: absolute;
+    width: 20%;
+    left: 0%;
+    top: 4%;
+}
+.contact-rside-img {
+    position: absolute;
+    width: 58%;
+    right: 0%;
+    top: 0%;
+}
+.contact-title
+{
+    font-family: 'baloo_bhaina_2regular';
+    font-size: 62px;
+	padding-top:4%;
+	padding-bottom:5%;
+}
+.map
+{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.map-title
+{
+    font-family: 'baloo_bhaina_2regular';
+    font-size: 50px;
+	margin-bottom:-5% !important;
+}
+.map-subtitle
+{
+    font-family: 'baloo_bhaina_2regular';
+    font-size: 40px;
+	margin-bottom:-5% !important;
+}
+.map-hr {
+    width: 67%;
+    margin-top: -5%;
+}
+.frm-testi {
+    background-color: transparent;
+    border: none;
+    font-family: 'rubiklight';
+    width: 90%;
+    padding: 3%;
+    padding-left: 2%;
+    border: 1px solid #bcb8b8;
+    margin-top: 0%;
+    font-size: 12px;
+}
+.btn.btn-about{
+    margin-top: 5%;
+    color: #000;
+}
+.bdr-btm
+{
+	border-bottom:none !important;
+}
+.addr {
+    font-family: "rubiklight";
+    font-size: 13px;
+    color: #000;
+}
+.addr:first-child{
+    margin-top: 15%;
+}
+.addr a{
+    color: #000;
+}
+.color-gray
+{
+	color:#4950579c;
+}
+.map-para {
+    font-family: "rubiklight";
+    font-size: 14px;
+    color: #000;
+    padding-top: 5%;
+    line-height: 22px;
+}
+.contact, .map{
+    position: relative;
+}
+.map-lft{
+    position: absolute;
+    top: 2%;
+    width: 60%;
+}
+@media screen and (max-width:2560px){
+    .contact-para {
+        font-size: 40px;
+        padding-top: 16%;
+        padding-left: 15%;
+    }
+    .contact-title {
+        font-size: 125px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .addr {
+        font-size: 32px;
+    }
+    .addr:first-child {
+        margin-top: 25%;
+    }
+    .frm-testi { 
+        width: 90%;
+        font-size: 28px;
+    }
+    .map-subtitle {
+        font-size: 60px;
+        margin-bottom: -2% !important;
+    }
+    .map-title {
+        font-size: 105px;
+        margin-bottom: -5% !important;
+    }
+    .map-para {
+        font-size: 34px;
+        padding-top: 10%;
+        line-height: 42px;
+    }
+    label{
+        font-size: 32px;
+        padding-top: 5%;
+    }
+    #attachment{
+        font-size: 30px;
+    }
+    .map-hr {
+        width: 53%;
+        margin-top: 0%;
+    }
+}
+@media screen and (max-width:1920px){
+    .contact-para {
+        font-size: 30px;
+        padding-top: 20%;
+        padding-left: 15%;
+    }
+    .contact-title {
+        font-size: 95px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .addr {
+        font-size: 24px;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 24px;
+    }
+    label, #attachment {
+        font-size: 28px;
+        padding-top: 5%;
+    }
+    .map-subtitle {
+        font-size: 54px;
+        margin-bottom: -4% !important;
+    }
+    .map-title {
+        font-size: 80px;
+        margin-bottom: -5% !important;
+    }
+    .map-para {
+        font-size: 26px;
+        padding-top: 10%;
+        line-height: 38px;
+    }
+}
+@media screen and (max-width:1600px){
+    .contact-para {
+        font-size: 26px;
+        padding-top: 20%;
+        padding-left: 15%;
+    }
+    .contact-title {
+        font-size: 84px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 21px;
+    }
+    .addr {
+        font-size: 21px;
+    }
+    label, #attachment {
+        font-size: 24px;
+        padding-top: 3%;
+    }
+    .map-subtitle {
+        font-size: 50px;
+        margin-bottom: -5% !important;
+    }
+    .map-title {
+        font-size: 74px;
+        margin-bottom: -5% !important;
+    }
+    .map-hr {
+        width: 60%;
+        margin-top: -2%;
+    }
+    .map-para {
+        font-size: 22px;
+        padding-top: 6%;
+        line-height: 38px;
+    }
+}
+@media screen and (max-width:1440px){
+    .contact-para {
+        font-size: 24px;
+        padding-top: 22%;
+        padding-left: 15%;
+    }
+    .contact-title {
+        font-size: 80px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .addr {
+        font-size: 20px;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 19px;
+    }
+    label, #attachment {
+        font-size: 21px;
+        padding-top: 3%;
+    }
+    .map-subtitle {
+        font-size: 46px;
+        margin-bottom: -5% !important;
+    }
+    .map-title {
+        font-size: 68px;
+        margin-bottom: -5% !important;
+    }
+    .map-para {
+        font-size: 21px;
+        padding-top: 10%;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:1366px){
+
+}
+@media screen and (max-width:1280px){
+    .contact-para {
+        font-size: 22px;
+        padding-top: 22%;
+        padding-left: 15%;
+    }
+    .contact-title {
+        font-size: 75px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 16px;
+    }
+    .addr {
+        font-size: 18px;
+    }
+    label, #attachment {
+        font-size: 19px;
+        padding-top: 3%;
+    }
+    .map-subtitle {
+        font-size: 42px;
+        margin-bottom: -5% !important;
+    }
+    .map-title {
+        font-size: 62px;
+        margin-bottom: -5% !important;
+    }
+    .map-hr {
+        width: 64%;
+        margin-top: -2%;
+    }
+    .map-para {
+        font-size: 18px;
+        padding-top: 10%;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width:1240px){
+    .contact-para {
+        font-size: 20px;
+        padding-top: 22%;
+        padding-left: 15%;
+    }
+    .contact-title {
+        font-size: 68px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 15px;
+    }
+    .addr {
+        font-size: 16px;
+    }
+    label, #attachment {
+        font-size: 18px;
+        padding-top: 3%;
+    }
+    .map-subtitle {
+        font-size: 36px;
+        margin-bottom: -5% !important;
+    }
+    .map-title {
+        font-size: 54px;
+        margin-bottom: -5% !important;
+    }
+    .map-hr {
+        width: 58%;
+        margin-top: -2%;
+    }
+    .map-para {
+        font-size: 17px;
+        padding-top: 10%;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width:1024px){
+    .contact-para {
+        font-size: 16px;
+        padding-top: 25%;
+        padding-left: 15%;
+    }
+    .contact-title {
+        font-size: 58px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 14px;
+    }
+    .addr {
+        font-size: 13px;
+    }
+    label, #attachment {
+        font-size: 16px;
+        padding-top: 3%;
+    }
+    .map-subtitle {
+        font-size: 32px;
+        margin-bottom: -5% !important;
+    }
+    .map-title {
+        font-size: 46px;
+        margin-bottom: -5% !important;
+    }
+    .map-hr {
+        width: 62%;
+        margin-top: -5%;
+    }
+    .map-para {
+        font-size: 14px;
+        padding-top: 5%;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width:800px){
+    .contact-para {
+        font-size: 15px;
+        padding-top: 25%;
+        padding-left: 15%;
+    }
+    .contact-title {
+        font-size: 54px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    .addr {
+        font-size: 12px;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 13px;
+    }
+    .map-subtitle {
+        font-size: 30px;
+        margin-bottom: -5% !important;
+    }
+    .map-title {
+        font-size: 44px;
+        margin-bottom: -5% !important;
+    }
+    .map-hr {
+        width: 75%;
+        margin-top: -5%;
+    }
+}
+@media screen and (max-width:768px){
+
+}
+@media screen and (max-width:480px){
+    .contact-side-img {
+        position: absolute;
+        width: 30%;
+        left: 0%;
+        top: 2%;
+    }
+    .contact-para {
+        font-size: 20px;
+        padding-top: 9%;
+        padding-left: 31%;
+    } 
+    .contact-details{
+        padding-left: 10%;
+    }
+    .contact-title {
+        font-size: 50px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 15px;
+    }
+    label, #attachment {
+        font-size: 18px;
+        padding-top: 3%;
+    }
+    .addr:first-child {
+        margin-top: 10%;
+    }
+    .addr {
+        font-size: 18px;
+        padding-right: 10%;
+    }
+    .map{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .map-subtitle {
+        font-size: 28px;
+        margin-bottom: -3% !important;
+        padding-top: 10%;
+    }
+    .map-title {
+        font-size: 48px;
+        margin-bottom: -5% !important;
+    }
+    .map-hr {
+        width: 38%;
+        margin-top: 0%;
+    }
+    .map-para {
+        font-size: 18px;
+        padding-top: 4%;
+        line-height: 26px;
+    }
+    .contact-rside-img {
+        position: absolute;
+        width: 100%;
+        right: 0%;
+        top: 82%;
+    }
+}
+@media screen and (max-width:414px){
+    .contact-para {
+        font-size: 18px;
+        padding-top: 9%;
+        padding-left: 32%;
+    }
+    .contact-title {
+        font-size: 46px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }.frm-testi {
+        width: 90%;
+        font-size: 14px;
+    }
+    label, #attachment {
+        font-size: 16px;
+        padding-top: 3%;
+    }
+    .addr {
+        font-size: 16px;
+        padding-right: 10%;
+    }
+    .map-para {
+        font-size: 16px;
+        padding-top: 4%;
+        line-height: 26px;
+    }
+    .map-hr {
+        width: 44%;
+        margin-top: 0%;
+    }
+}
+@media screen and (max-width:412px){
+    .contact-para {
+        font-size: 16px;
+        padding-top: 9%;
+        padding-left: 32%;
+    }
+    .contact-title {
+        font-size: 42px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 13px;
+    }
+    label, #attachment {
+        font-size: 15px;
+        padding-top: 3%;
+    }
+    .addr {
+        font-size: 14px;
+        padding-right: 10%;
+    }
+    .map-subtitle {
+        font-size: 26px;
+        margin-bottom: -3% !important;
+        padding-top: 10%;
+    }
+    .map-title {
+        font-size: 44px;
+        margin-bottom: -5% !important;
+    }
+    .map-hr {
+        width: 41%;
+        margin-top: -4%;
+    }
+    .map-para {
+        font-size: 14px;
+        padding-top: 4%;
+        line-height: 23px;
+    }
+    .btn.btn-about, .btn.btn-project {
+        font-size: 12px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 25px;
+    }
+}
+@media screen and (max-width:393px){
+
+}
+@media screen and (max-width:384px){
+    .contact-para {
+        font-size: 15px;
+        padding-top: 9%;
+        padding-left: 32%;
+    }
+    .contact-title {
+        font-size: 40px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 12px;
+    }
+    label, #attachment {
+        font-size: 14px;
+        padding-top: 3%;
+    }
+    .addr {
+        font-size: 12px;
+        padding-right: 10%;
+    }
+    .map-subtitle {
+        font-size: 24px;
+        margin-bottom: -3% !important;
+        padding-top: 10%;
+    }
+    .map-title {
+        font-size: 40px;
+        margin-bottom: -5% !important;
+    }
+}
+@media screen and (max-width:375px){
+
+}
+@media screen and (max-width:360px){
+
+}
+@media screen and (max-width:320px){
+    .contact-title {
+        font-size: 36px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .frm-testi {
+        width: 90%;
+        font-size: 10px;
+    }
+    label, #attachment {
+        font-size: 12px;
+        padding-top: 3%;
+    }
+    .map-subtitle {
+        font-size: 22px;
+        margin-bottom: -3% !important;
+        padding-top: 10%;
+    }
+    .map-title {
+        font-size: 36px;
+        margin-bottom: -5% !important;
+    }
+    .map-para {
+        font-size: 12px;
+        padding-top: 4%;
+        line-height: 23px;
+    }
+}

@@ -1,0 +1,270 @@
+.capabilities{
+	background-image:url("../images/capabilities/capabilities-bg.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:5%;
+	margin-top: 0% !important;
+}
+.mb-10{
+	margin-bottom: 10% !important;
+	margin-top: 0% !important;
+}
+.about-us-title {
+    display: flex;
+    padding-left: 26%;
+}
+.about-para h6 {
+    padding-top: 12%;
+}
+.about-title {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.capabilities-bottom-line {
+    position: absolute;
+    width: 26%;
+}
+.about-title h2 {
+    margin-bottom: -4%;
+}
+.lft-capabilities-para {
+    font-family: 'rubiklight';
+	color: #000;
+	font-size: 23px;
+	padding-left: 10%;
+	line-height: 26px;
+}
+.capabilities-heading-right{
+	font-family: 'baloo_bhaina_2regular';
+	color: #000;
+	font-size:55px;
+	margin-bottom:0px;
+}
+.capabilities-heading-hr{
+	position: absolute;
+	margin-top: -20%;
+}
+.capabilities-div{
+	position: relative;
+	padding: 2%;
+    padding-right: 1%;
+    border: 1px solid #ddd;
+	margin-top:5%;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 25%;
+	flex: 0 0 22%;
+	max-width: 22%;
+	margin-right: 2%;
+	padding-bottom: 5%;
+}
+.capabilities-div-second{
+	padding: 2%;
+    padding-right: 1%;
+	border: 1px solid #ddd;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 25%;
+	flex: 0 0 22%;
+	max-width: 22%;
+	margin-right:2%;
+	margin-top:5%;
+	margin-left:3%;
+	padding-bottom: 5%;
+}
+.capabilities-title{
+	font-family: 'rubikregular';
+	font-size:24px;
+	padding-top:10%;
+}
+.capabilities-div p, .capabilities-div-second p{
+	font-family: 'rubiklight';
+	font-size: 14px;
+	padding-bottom: 10%;
+}
+.capabilities-para{
+	font-size:16px;
+	font-family: 'baloo_bhaina_2regular';
+}
+.capabilities-knowmore{
+	position: absolute;
+	bottom: 7%;
+	font-size: 13px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	padding-right: 20px;
+	color:#000;
+	border:1px solid #1394aa;
+	font-family: 'rubikregular';
+	text-transform: uppercase;
+}
+.capabilities-knowmore:hover{
+	background-color: #1394aa;
+	border-color: #1394aa;
+	color: #fff;
+	text-decoration: none;
+}
+.capability-1 p {
+	padding-top: 13%;
+}
+.capability-2 p{
+	padding-top: 11%;
+}
+.road-works{
+	width: 22%;
+	transition: linear .1s;
+}
+.capabilities-img{
+	width:36%;
+	position: relative;
+	opacity: 1;
+}
+.overlay-img{
+	width: 31%;
+	position: absolute;
+	left: 9.3%;
+	opacity: 0;
+}
+.road-works:hover .overlay-img{
+	opacity: 1;
+	transition: ease-in .1s;
+}
+.road-works:hover .capabilities-title{
+	color: #1394aa;
+}
+.road-works:hover{
+	box-shadow: 0px 2px 18px 2px #00000042;
+	outline: 5px solid #fff;
+	outline-offset: 0px;
+	transform: scale(1.02);
+	background-image: url("../images/capabilities/road-works-bg.png");
+	background-size: 100% 100%;
+	transition: .2s;
+}
+.road-works:hover .capabilities-img{
+	opacity: 0;
+	transition: ease-in .1s;
+}
+.building-works:hover .capabilities-img{
+	opacity: 0;
+	transition: ease-in .1s;
+}
+.building-works:hover .overlay-img{
+	opacity: 1;
+	transition: ease-in .1s;
+}
+.building-works:hover .capabilities-title{
+	color: #1394aa;
+}
+.building-works:hover{
+	box-shadow: 0px 2px 18px 2px #00000042;
+	outline: 5px solid #fff;
+	outline-offset: 0px;
+	transform: scale(1.02);
+	background-image: url("../images/capabilities/building-work-bg.png");
+	background-size: 100% 100%;
+	transition: .2s;
+}
+.water-supply:hover .capabilities-img{
+	opacity: 0;
+	transition: ease-in .1s;
+}
+.water-supply:hover .overlay-img{
+	opacity: 1;
+	transition: ease-in .1s;
+}
+.water-supply:hover .capabilities-title{
+	color: #1394aa;
+}
+.water-supply:hover{
+	box-shadow: 0px 2px 18px 2px #00000042;
+	outline: 5px solid #fff;
+	outline-offset: 0px;
+	transform: scale(1.02);
+	background-image: url("../images/capabilities/water-supply-bg.png");
+	background-size: 100% 100%;
+	transition: .2s;
+}
+.railway-track:hover .capabilities-img{
+	opacity: 0;
+	transition: ease-in .1s;
+}
+.railway-track:hover .overlay-img{
+	opacity: 1;
+	transition: ease-in .1s;
+}
+.railway-track:hover .capabilities-title{
+	color: #1394aa;
+}
+.railway-track:hover{
+	box-shadow: 0px 2px 18px 2px #00000042;
+	outline: 5px solid #fff;
+	outline-offset: 0px;
+	transform: scale(1.02);
+	background-image: url("../images/capabilities/railway-track-bg.png");
+	background-size: 100% 100%;
+	transition: .2s;
+}
+.electricity:hover .capabilities-img{
+	opacity: 0;
+	transition: ease-in .1s;
+}
+.electricity:hover .overlay-img{
+	opacity: 1;
+	transition: ease-in .1s;
+}
+.electricity:hover .capabilities-title{
+	color: #1394aa;
+}
+.electricity:hover{
+	box-shadow: 0px 2px 18px 2px #00000042;
+	outline: 5px solid #fff;
+	outline-offset: 0px;
+	transform: scale(1.02);
+	background-image: url("../images/capabilities/electricity-bg.png");
+	background-size: 100% 100%;
+	transition: .2s;
+}
+.real-estate:hover .capabilities-img{
+	opacity: 0;
+	transition: ease-in .1s;
+}
+.real-estate:hover .overlay-img{
+	opacity: 1;
+	transition: ease-in .1s;
+}
+.real-estate:hover .capabilities-title{
+	color: #1394aa;
+}
+.real-estate:hover{
+	box-shadow: 0px 2px 18px 2px #00000042;
+	outline: 5px solid #fff;
+	outline-offset: 0px;
+	transform: scale(1.02);
+	background-image: url("../images/capabilities/real-estate-bg.png");
+	background-size: 100% 100%;
+	transition: .2s;
+}
+.pavement:hover .capabilities-img{
+	opacity: 0;
+	transition: ease-in .1s;
+}
+.pavement:hover .overlay-img{
+	opacity: 1;
+	transition: ease-in .1s;
+}
+.pavement:hover .capabilities-title{
+	color: #1394aa;
+}
+.pavement:hover{
+	box-shadow: 0px 2px 18px 2px #00000042;
+	outline: 5px solid #fff;
+	outline-offset: 0px;
+	transform: scale(1.02);
+	background-image: url("../images/capabilities/pave-bg.png");
+	background-size: 100% 100%;
+	transition: .2s;
+}
+.our-projects{
+	margin-top: 10%;
+	margin-bottom: 5%;
+}

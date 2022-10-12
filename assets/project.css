@@ -1,0 +1,410 @@
+.our-projects{
+    position: relative;
+    padding-top: 0%;
+    margin-bottom: 0%;
+}
+.projects-title{
+    padding-top: 20%;
+}
+.project-para{
+    font-family: 'rubiklight';
+    font-size: 16px;
+    padding-top: 15%;
+
+}
+.prj-bg {
+    position: absolute;
+    left: 70%;
+    width: 35%;
+    top: 0%;
+    z-index: -1;
+}
+.prj-dtls-bg{
+    position: absolute;
+    left: 70%;
+    width: 35%;
+    top: 0%;
+    z-index: -1;
+}
+.projects-names{
+    position: relative;
+    margin-top: 12%;
+}
+.nav-tabs{
+    padding-left: 15%;
+    padding-bottom: 5%;
+    border: 0px;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 2rem;
+}
+.nav-item .nav-link {
+    font-family: 'rubikmedium';
+    font-size: 20px;
+    color: #000;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #169dad;
+    background-color: #fff;
+    border-color: transparent;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+    color: #169dad;
+}
+.all-projects{
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.img-project-detail{
+    position: relative;
+   box-shadow: 0px 0px 10px 0px #e5e5e5; 
+}
+.prj:hover .overlay-plus{
+    opacity: 1;
+    transition: ease-in 0.2s;
+}
+.overlay-plus{
+    position: absolute;
+    width: 10%;
+    top: 30%;
+    left: 42%;
+    opacity: 0;
+}
+.side-img {
+    position: absolute;
+    width: 18%;
+    left: 0%;
+    top: 110%;
+}
+.mrgn-top{
+    margin-top: 3%;
+}
+.prj p{
+    font-family: 'rubikregular';
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    padding-top: 5%;
+}
+.prj a:hover{
+    text-decoration: none;
+}
+.details-title h6{
+    font-family: 'rubikmedium';
+    font-size: 16px;
+}
+.details-title h2{
+    font-family: 'baloo_bhaina_2regular';
+    font-size: 42px;
+    padding-right: 12%;
+    padding-top: 2%;
+}
+.details-title p{
+    font-family: 'rubiklight';
+    font-size: 18px;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+.project-details{
+    position: relative;
+    padding-left: 12%;
+    padding-top: 10%;
+}
+.side-details p{
+    font-family: 'rubiklight';
+    font-size: 16px;
+    color: #959595;
+    margin-bottom: 0px;
+}
+.padd-top{
+    padding-top: 15%;
+}
+.side-details h6{
+    font-family: 'rubikmedium';
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.project-slider{
+    margin-top: -3%;
+    margin-left: 5%;
+}
+.proj-details-slider .carousel-control-next, .proj-details-slider .carousel-control-prev{
+    top: 85%;
+}
+.proj-details-slider .carousel-control-prev {
+    left: 80%;
+      width: 10%;
+      background-color: #fff;
+      height: 15%;
+      opacity: 1;
+}
+.proj-details-slider .carousel-control-prev-icon{
+    background-color: #000;
+}
+.proj-details-slider .carousel-control-next{
+    left: 90%;
+    width: 10%;
+    background-color: #000;
+    height: 15%;
+    opacity: 1;
+}
+.arrows{
+    width: 25%;
+}
+@media screen and (max-width: 2560px) 
+{
+.project-para {
+    font-size: 36px;
+    padding-top: 15%;
+}
+.nav-item .nav-link 
+{
+    font-size: 36px;
+}
+.prj p
+{
+    font-size: 32px;
+}
+}
+@media screen and (max-width: 1920px){
+    .project-para {
+        font-size: 28px;
+        padding-top: 15%;
+    }
+    .nav-item .nav-link {
+        font-size: 32px;
+    }
+    .prj p {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 1600px) 
+{
+    
+.nav-item .nav-link {
+    font-size: 27px;
+}
+
+.project-para {
+    font-size: 24px;
+}
+.prj p {
+    font-size: 24px;
+}
+}
+@media screen and (max-width: 1440px)
+{
+.nav-item .nav-link {
+    font-size: 23px;
+}
+.prj p {
+    font-size: 22px;
+}
+.project-para {
+    font-size: 22px;
+}
+}
+@media screen and (max-width: 1280px)
+{
+.prj p {
+    font-size: 18px;
+}
+.project-para {
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 1240px)
+{
+.prj p {
+    font-size: 18px;
+}
+.project-para {
+    font-size: 18px;
+}
+}
+@media screen and (max-width: 1024px)
+{
+.nav-item .nav-link {
+    font-size: 20px;
+}
+.prj p {
+    font-size: 16px;
+}
+.project-para {
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 800px)
+{
+.project-para {
+    font-size: 15px;
+}
+.nav-item .nav-link {
+    font-size: 13px;
+}
+.prj p {
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 768px)
+{
+.nav-item .nav-link {
+    font-size: 18px;
+}
+.nav-link {
+    padding: 0.5rem 1rem;
+}
+.nav-tabs {
+    padding-left: 12%;
+}
+.prj p {
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 480px)
+{
+    .nav-tabs {
+        padding-left: 7%;
+        margin-top: 5%;
+    }
+.prj p {
+    font-size: 18px;
+    padding-bottom: 5%;
+}
+.projects-title {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.all-projects {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.nav-item .nav-link {
+    font-size: 14px;
+    padding-right: 0%;
+}
+.projects-names {
+    margin-top: 0%;
+}
+
+.mobside-img {
+    position: absolute;
+    width: 24%;
+    left: -4%;
+    top: 0%;
+}
+.project-para {
+    font-size: 18px;
+    width: 55%;
+    margin-left: 25%;
+    padding-top: 0%;
+}
+.mobprj-bg {
+    position: absolute;
+    width: 19%;
+    top: -10%;
+    z-index: -1;
+    right: 0%;
+}
+.side-img{
+    display: none;
+}
+}
+
+@media screen and (max-width: 414px)
+{
+.nav-item .nav-link {
+    font-size: 12px;
+    padding-right: 0%;
+}
+.project-para {
+    font-size: 16px;
+    width: 55%;
+    margin-left: 25%;
+    padding-top: 0%;
+}
+}
+@media screen and (max-width: 412px){
+    .project-para {
+        font-size: 15px;
+        width: 55%;
+        margin-left: 25%;
+        padding-top: 0%;
+    }
+    .prj p {
+        font-size: 16px;
+        padding-bottom: 5%;
+    }
+}
+@media screen and (max-width: 393px){
+    .nav-tabs {
+        padding-left: 6%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 384px)
+{
+.project-para {
+    font-size: 14px;
+}
+.nav-item .nav-link {
+    font-size: 12px;
+}
+.nav-tabs {
+    padding-left: 4%;
+    margin-top: 5%;
+}
+}
+@media screen and (max-width: 375px)
+{
+    .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .prj p {
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+}
+@media screen and (max-width: 360px){
+    .project-para {
+        font-size: 13px;
+    }
+    .projects-bottom-line {
+        width: 42%;
+    }
+    .nav-tabs {
+        padding-left: 2%;
+        margin-top: 5%;
+    }
+    .prj p {
+        font-size: 14px;
+        padding-bottom: 5%;
+    }
+}
+@media screen and (max-width: 320px){
+    .project-para {
+        font-size: 12px;
+    }
+    .projects-bottom-line {
+        width: 44%;
+    }
+    .nav-link {
+        padding: 0.5rem 0.5rem;
+    }
+    .nav-item .nav-link {
+        font-size: 11px;
+    }
+    .nav-tabs {
+        padding-left: 4%;
+        margin-top: 5%;
+    }
+    .prj p {
+        font-size: 12px;
+        padding-bottom: 5%;
+    }
+}
